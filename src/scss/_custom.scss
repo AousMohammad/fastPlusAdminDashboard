@@ -1,0 +1,38 @@
+$primary-base: #023047 !default;
+$white: #f4f5fa !default;
+$gray-base: #8d8d8d !default;
+$gray-900: #e1e1e1 !default;
+$yellow: #ffb902 !default;
+$warning-base: $yellow !default;
+$secondary-base: $gray-base !default;
+$success-base: #2eb85c !default;
+$danger-base: #e55353 !default;
+$dark-base: $gray-900 !default;
+$light-base: $white !default;
+$info-base: #39f !default;
+
+:root {
+  --cui-heading-color: #ffb902;
+}
+
+.text-medium-emphasis {
+  color: $primary-base !important;
+}
+
+.card {
+  --cui-card-border-color: #023047;
+  //   --cui-card-bg: #20304796;
+}
+
+.btn-primary {
+  color: $yellow;
+}
+
+.input-group-text {
+  color: $yellow;
+  background-color: var(--cui-input-group-addon-bg, $primary-base);
+}
+
+.sidebar-nav .nav-link.active, .sidebar-nav .nav-link.active svg {
+    color: $yellow !important;
+}
